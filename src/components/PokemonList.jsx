@@ -7,6 +7,7 @@ const PokemonList = ({ pokemons }) => {
         return <PokemonCard
           name={pokemon.name}
           image={pokemon.sprites.front_default}
+          types={pokemon.types}
           key={pokemon.name}
         />;
       })}
