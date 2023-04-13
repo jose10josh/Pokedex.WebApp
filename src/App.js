@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Col, Spin, Space } from 'antd';
+import { Col, Spin } from 'antd';
 import Searcher from './components/Searcher';
 import PokemonList from './components/PokemonList';
 import { getPokemon } from './api';
