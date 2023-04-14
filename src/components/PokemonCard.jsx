@@ -3,7 +3,7 @@ import Meta from 'antd/lib/card/Meta';
 import { useDispatch } from 'react-redux';
 
 import { StarButton } from './StarButton';
-import { setFavorite } from '../actions';
+import { setFavorite } from '../slices/dataSlice';
 
 import './PokemonList.css';
 
